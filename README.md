@@ -29,6 +29,7 @@ npx expo login   //Expo 로그인// (입력후, Expo 가입할때 작성했던 �
 
 <br>
 
+> + npx expo login 으로 pc에서 로그인해주고 + 폰에서도 Expo앱 접속중이어야함.  
 > + expo init -> `npx create-expo-app --template`으로 명령어가 변경됨.  
 > + expo login => `npx expo login`으로 명령어가 변경됨.  
 > + 주의) powershell 에서는 불가능  
@@ -47,7 +48,13 @@ npx expo login   //Expo 로그인// (입력후, Expo 가입할때 작성했던 �
 ## 4. Expo 프로젝트 실행
 
 ```
-npx expo start
+npx start  or  npx expo start
+```
+
+### 4-1. -w 옵션으로 웹에서도 프로젝트를 실행하고싶을때!
+웹에서도 프로젝트를 실행하기 위해서는 종속성을 따로 설치해줘야 함.
+```
+npx expo install react-dom react-native-web @expo/metro-runtime
 ```
 
 
