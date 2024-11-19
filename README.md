@@ -11,10 +11,28 @@ npm install --global expo-cli
 
 <br>
 
-## 2. 핸드폰 안드로이드 Play Store에서 Expo 다운로드
+
+## 2. 핸드폰 안드로이드 Play Store에서 Expo 다운로드 & 계정생성
 
 
 ![image](https://github.com/user-attachments/assets/292b942b-0c9f-4b7a-ad48-73657e860362)
+
+<br>
+
+## 3. Expo 프로젝트 생성 & Expo 로그인(Expo계정 이메일 or 닉네임)
+
+```
+npx create-expo-app 앱이름 --template  //Expo 프로젝트 생성// (입력후 뜨는 리스트에서 -> `blank` 선택하기)
+or => npx create-expo-app (생성할 프로젝트 이름) --template blank    
+npx expo login   //Expo 로그인// (입력후, Expo 가입할때 작성했던 이메일(or 닉네임) 입력 → 비밀번호 입력)
+```
+
+<br>
+
+> + expo init -> `npx create-expo-app --template`으로 명령어가 변경됨.  
+> + expo login => `npx expo login`으로 명령어가 변경됨.  
+> + 주의) powershell 에서는 불가능  
+
 
 
 <br>
@@ -23,6 +41,15 @@ npm install --global expo-cli
 > + Expo를 이용하여, 우리가 만드는 React Native 소스코드를 곧바로 폰으로 전송  
 > + Expo는 폰 안에 있는 React Native 소스코드를 실행시킴 -> 폰에서 React Native코드를 바로 미리보기 가능
 > + 우리가 해야하는건 그저 JavaScript & Markup/Styling 코드를 작성-변경시키는 것 뿐, 나머지는 Expo에서 해줌
+
+<br>
+
+## 4. Expo 프로젝트 실행
+
+```
+npx expo start
+```
+
 
 <br><br><hr><br>
 
