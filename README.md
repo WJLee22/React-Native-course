@@ -93,9 +93,9 @@ npx expo install react-dom react-native-web @expo/metro-runtime
 ```
 8. Android Studio 에뮬레이터가 실행된 모습확인
 
-9. VSCode 프로젝트 디렉터리 터미널로 돌아와서 `npx expo start` 및 `npm start`로 expo 를 실행    
+9. VSCode 프로젝트 디렉터리 터미널로 돌아와서 ~~`npx expo start` 및 `npm start`로 expo 를 실행~~ **=>2024/11/20변경:**  **`npm run android`** 입력
  
-10. `a 키 입력` -> 7단계에서 설정해둔 에뮬레이터가 실행되어지고, 이 에뮬에 Expo 앱이 자동으로 설치되고 실행되어짐    
+11. ~~`a 키 입력` ->~~ 7단계에서 설정해둔 에뮬레이터가 실행되어지고, 이 에뮬에 Expo 앱이 자동으로 설치되고 실행되어짐    
 
 
 
